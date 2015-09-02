@@ -1,6 +1,7 @@
 # Scala Showcase
 
  A lot of scripts useful to learn and train others in Scala.
+ Before use it I recommend visit [Twitter Scala School!](https://twitter.github.io/scala_school/index.html) and when you feel that implements your test are better in files than Scala REPL you are welcome to clone **Scala Showcase**.
 
 ## How to use
 

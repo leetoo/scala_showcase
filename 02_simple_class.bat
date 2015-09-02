@@ -9,17 +9,24 @@ goto :eof
 **/
 class Room{
 
-  //'val' can not be change
-  val notDisturbMessage: String = "Do not enter!!"
+  /** --- CONSTRUCTOR START ---**/
+  //"val" can not be change
+  val notDisturbMessage: String = "Do not enter!! I learning Scala!!"
   val freeMessage: String = "Knock before enter!!"
 
-  //you can change it
+  //you can change their values
   var isBussy: Boolean = false
+  var ownerName: String = "No Owner"
 
   /** --- COSNTRUCTOR END ---**/
-  //define a method
+
+  //define a function
+  val defineRoomOwer = { (owner:String) => ownerName = owner }
+
+  //define a methods
   def printGreet(): Unit = println("Welcome to Room")
   def getSignboardMessage: String = if(isBussy) notDisturbMessage else freeMessage
+
 
 }
 
@@ -38,7 +45,7 @@ class Wall(color: String) {
 }
 
 /**
-* CLASS TYPE 3: Class with several constructors
+* CLASS TYPE 3: Class with several constructors using curried
 **/
 //TODO: implement it
 
@@ -49,7 +56,9 @@ object SimpleClassExample {
     val room = new Room
     room.printGreet
     room.isBussy = true
-    println(room.getSignboardMessage)
+    room.defineRoomOwer("Miguel")
+    println("Room owner: " + room.ownerName +
+          " | Room state: " + room.getSignboardMessage)
 
     //Class with parameter in constructor
     val wall = new Wall("black")
