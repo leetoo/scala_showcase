@@ -21,7 +21,7 @@ object FunctionlCombinatorsExample {
     //tupleExamplesFunction
 
     //Map Collection Manage Examples Function
-    //mapExamplesFunction
+    mapExamplesFunction
 
   }
 }
@@ -53,5 +53,13 @@ def tupleExamplesFunction:Unit = {
 }
 
 def mapExamplesFunction:Unit = {
-  val map = Map(1 -> 2)
+  val map = Map(1 -> 2, "a" -> "b")
+  println("map.get(1): " + map.get(1))
+  println("map.get("a"): " + map.get("a"))  
+
+
+
+
+
+
 }
