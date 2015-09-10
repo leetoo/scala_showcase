@@ -2,11 +2,12 @@
 @echo off
 call scala %0 %*
 goto :eof
+:: This is a comment - To execute just type
+::    C:\Path_to_this\> 01_simple_windows_script.bat 
+:: on your windows console in this file Path
 ::!#
 
-/**
-* More info: http://docs.scala-lang.org/overviews/core/futures.html
-**/
+
 object HelloWorld {
   def main(args: Array[String]) {
     println("Hello, world! " + args.toList)

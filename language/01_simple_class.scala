@@ -1,9 +1,3 @@
-::#!
-@echo off
-call scala %0 %*
-goto :eof
-::!#
-
 /**
 * CLASS TYPE 1: Class without parameter in constructor
 **/
@@ -11,7 +5,7 @@ class Room{
 
   /** --- CONSTRUCTOR START ---**/
   //"val" can not be change
-  val notDisturbMessage: String = "Do not enter!! I learning Scala!!"
+  val notDisturbMessage: String = "Do not enter!! I'm learning Scala!!"
   val freeMessage: String = "Knock before enter!!"
 
   //you can change their values

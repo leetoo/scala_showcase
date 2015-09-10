@@ -1,13 +1,7 @@
-#!/bin/sh
-exec scala "$0" "$@"
-!#
-#------ Preamble end  and scala code start ----
-
-# TODO: Test this script
-
 /**
 * Examples based on: https://twitter.github.io/scala_school/collections.html
 **/
+
 object FunctionlCombinatorsExample {
   def main(args: Array[String]) {
 
@@ -55,11 +49,5 @@ def tupleExamplesFunction:Unit = {
 def mapExamplesFunction:Unit = {
   val map = Map(1 -> 2, "a" -> "b")
   println("map.get(1): " + map.get(1))
-  println("map.get("a"): " + map.get("a"))  
-
-
-
-
-
-
+  println("map.get("a"): " + map.get("a"))
 }

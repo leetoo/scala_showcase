@@ -1,9 +1,10 @@
 #!/bin/sh
 exec scala "$0" "$@"
+# This is a comment - To execute just type
+#     $ bash 01_simple_unix_script.scala
+# on your windows console in this file Path
 !#
-#------ Preamble end  and scala code start ----
 
-# TODO: Test this script
 
 object HelloWorld {
   def main(args: Array[String]) {
@@ -11,5 +12,4 @@ object HelloWorld {
   }
 }
 
-# esto es un comentario
 HelloWorld.main(args)
