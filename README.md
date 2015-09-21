@@ -8,14 +8,31 @@
 
 ## How to use
 
-You just should use in console:
+There are three main directories:
 
-    $ cd script
-    $ scala XX_script_name.scala
+1. **sbt_tutorial** - sbt tutorials examples
 
-**Note 1:** We assume here the file script.sh has execute access and the search path for the scala command is specified in the PATH environment variable.
+        $ cd sbt_tutorial
+        $ vim build.sbt #open build.sbt in an editor
+        $ # and comment and uncomment diferrent
+        $ #parts and close it.
 
+        $ sbt
+        > hello //first simple task example
 
+   **Note:** read sbt_tutorial/README.md file
+
+2. **script_examples** - windows and unix scripts examples
+        $ cd script_examples
+        $ bash simple_unix_script.scala (or simple_windows_script.bat)
+
+   **Note:** We assume here the file script.sh has execute access and the search path for the scala command is specified in the PATH environment variable.
+
+3. **src** - Scala code examples
+
+        $ scala src/main/scala/XXX/filename.scala
+
+## List of Scala code examples (src/)
 
 ### script
 0. Simple Unix Script - A Hello World example as Unix Script.
