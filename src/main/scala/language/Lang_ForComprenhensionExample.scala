@@ -5,7 +5,8 @@
 * http://debasishg.blogspot.cl/2008/03/monads-another-way-to-abstract.html
 *
 **/
-object HelloWorld {
+object Lang_ForComprenhensionExample {
+
   def main(args: Array[String]) {
     val first = List("a", "b")
     val next = List("*", "#")
@@ -32,11 +33,7 @@ object HelloWorld {
     }
     println("returnList2: " + returnList2)
 
-
-
     }
-
-
 }
 
-HelloWorld.main(args)
+//HelloWorld.main(args)

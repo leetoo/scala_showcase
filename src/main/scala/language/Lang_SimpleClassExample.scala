@@ -43,7 +43,7 @@ class Wall(color: String) {
 **/
 //TODO: implement it
 
-object SimpleClassExample {
+object Lang_SimpleClassExample {
   def main(args: Array[String]) {
 
     //Class without parameter in constructor
@@ -63,4 +63,4 @@ object SimpleClassExample {
   }
 }
 
-SimpleClassExample.main(args)
+//SimpleClassExample.main(args)

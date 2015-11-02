@@ -54,20 +54,10 @@ There are three main directories:
 ./node_modules/markdown-include/bin/cli.js markdown.json
 More info: https://github.com/sethen/markdown-include#how-to-use-from-the-command-line -->
 ### Language
-0. Lang_CaseClassExample - Case Class example **(TODO)**
-0. Lang_ForComprenhensionExample - for-yield example
-0. Lang_FunctionalCombinatorsExample - Functional Combinators example
-0. Lang_FuturePromisesExample - Future Promises examples **(TODO)**
-0. Lang_SimpleClassExample - A simple Classes example.
-
+#include "./src/main/scala/language/README.md"
 
 ### Akka
- 0. Akka_ActorCreationExample - Creación de actores mediante el uso de Props
- 0. Akka_GenericExample - Ejemplo generico del uso de actores
- 0. Akka_InboxExample - Uso de Inbox para el envio de mensajes **(TODO)**
- 0. Akka_MessagesExample - Envio de Mensajes directos a un actor
- 0. Akka_ReceiveTimeoutExample - Ejecución de código por defecto después de un Timeout
-
+#include "./src/main/scala/akka/README.md"
 
 ### Advance
 0. Interop Scala Java - Scala code using Java code example.
